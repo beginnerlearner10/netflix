@@ -1,0 +1,178 @@
+header{
+  background: linear-gradient(to right,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.05)),url('../img/netflix.jpg') center center no-repeat;
+  background-position: cover;
+  height: 100vh;
+  border-bottom: .6em solid #44403F;
+}
+div>img{
+  height: 200px;
+  width: 300px;
+  margin-top: -30px;
+}
+
+div a{
+  margin-top: 35px;
+
+}
+
+ header section{
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.pitch{
+  margin: 0 3%;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  font-size: 1.5vw;
+}
+.pitch_title{
+  font-size: 3em;
+  margin: 0 0 0.2em;
+  font-weight: 700;
+  text-align: center;
+}
+.pitch_subtitle1{
+  margin: -0.2em;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.pitch_subtitle2{
+  margin-top: 1em;
+  margin-bottom: -.5em;
+  font-size: 1em;
+  text-align: center;
+}
+
+.op{
+  align-self: center;
+  font-weight: 700;
+  margin-top: 2%;
+  margin-left: 25%;
+  width: 15em;
+  font-size: 1em;
+}
+
+#features{
+  background-color: #141414;
+  border-bottom: 2px solid #3d3d3d;
+  height: 250%;
+}
+#features > nav a{
+  text-decoration: none;
+  text-align: center;
+  vertical-align: top;
+  font-weight: bold;
+  color: #777;
+  height: 170px;
+  line-height: 20px;
+  font-size: 1.5em;
+  margin-bottom: 5%;
+}
+#features >nav a:hover{
+  color: white;
+}
+#features > nav a img{
+  height: 80px;
+}
+#features > nav a h2{
+  margin: 10px 0 0;
+  font-size: 1em;
+}
+
+.columns{
+  display: flex;
+}
+
+.column{
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.center{
+  margin: 0 auto;
+}
+
+.size-80{
+  width: 80%;
+}
+.card{
+  background-color: #141414;
+}
+
+.card-deck{
+  margin: 2% 2%;
+}
+
+.card-body> h5{
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  font-size: 2em;
+  height: 50%;
+}
+
+.card-body> p{
+  color: #777;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.container-fluid>h3{
+  margin-top: 10%;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.input-group{
+  padding-left: 16%;
+  margin-top: 2%;
+  width: 80vw;
+}
+
+.form-control{
+  font-size: 1.6em;
+
+}
+
+#bt{
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+footer{
+  border-top: .6em solid #44403F;
+  padding-top: 5%;
+  background-color:#141414 ;
+  color: #777;
+
+}
+
+.col-md-3 > a{
+  color: #777;
+  font-size: 1.2em;
+  }
+.dropdown{
+  padding-bottom:2%;
+}
+
+h5{
+  padding-bottom: 2%;
+}
+
+.end{
+  font-size: 1.7em;
+  text-align: center;
+  padding-bottom: 5%;
+  font-weight: 500;
+}
